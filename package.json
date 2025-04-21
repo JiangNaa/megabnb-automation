@@ -1,0 +1,26 @@
+{
+  "name": "megabnb-automation",
+  "version": "1.0.0",
+  "description": "MegaBNB智能合约部署自动化工具",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "read-excel": "node read-excel.js",
+    "deploy-only": "node deploy-contract.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "megabnb",
+    "blockchain",
+    "smart-contract",
+    "web3"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0",
+    "web3": "^1.7.0",
+    "xlsx": "^0.18.5"
+  }
+}
